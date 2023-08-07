@@ -7,8 +7,9 @@ COPY . /devops/
 
 RUN pip install --no-cache-dir --upgrade setuptools wheel --use-pep517 pip &&\
     pip install --no-cache-dir --trusted-host pypi.python.org numpy &&\
-    pip install --no-cache-dir --trusted-host pypi.python.org -r requirements.txt
-# hadolint ignore=DL3013
+    pip install --no-cache-dir --trusted-host pypi.python.org -r requirements.txt &&\
+#    hadolint ignore=DL3013
+
 
 EXPOSE 80
 
