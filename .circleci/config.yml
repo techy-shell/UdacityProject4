@@ -30,4 +30,5 @@ job:
             make lint
 workflows:
   myWorkflow:
-    jobs: build
+    jobs:
+      - build
