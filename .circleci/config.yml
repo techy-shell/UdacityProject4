@@ -28,7 +28,3 @@ job:
           command: |
             . venv/bin/activate
             make lint
-workflows:
-  myWorkflow:
-    jobs:
-    - build
