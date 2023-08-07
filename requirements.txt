@@ -1,8 +1,8 @@
 Click
 Flask
+pylint
 itsdangerous
 Jinja2
-joblib
 MarkupSafe
 numpy
 pandas
@@ -12,4 +12,4 @@ scikit-learn
 scipy
 six
 Werkzeug
-pylint
+
